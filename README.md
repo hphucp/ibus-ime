@@ -1,11 +1,11 @@
 ## ibus-ime
 A simple Telex input method engine for IBus
 
-### Why build this shjt
+### Why build this
 
-I’ve tried several Telex input methods, but many of them felt inconvenient to use, had visual rendering issues, or contained lingering bugs. So I decided to implement my own input method engine.
+I have tried several Telex input methods, but many of them felt inconvenient to use, had visual rendering issues, or contained lingering bugs. So I decided to implement my own input method engine.
 
-However, during the process, I realized the real problem wasn’t the input method engine or IBus itself — it was actually caused by my window manager. Because of that, I’ve lost motivation and will likely abandon this project.
+However, during the process, I realized the main cause wasn't the input method engine or IBus itself, I suspect it was actually caused by D-Bus. Because of that, I've lost motivation and will likely abandon this project.
 
 This input method currently only supports basic Vietnamese typing using the Telex input method. It does not support features like tone removal or automatic capitalization. While those features would be relatively easy to add, I no longer have the motivation to continue development.
 
